@@ -1,4 +1,4 @@
-# Handling-multiple-large-files-the-easy-way-using-Python
+# Handling multiple large files the easy way using Python
 ## Workshop Instructor: 
 Laura Gutierrez Funderburk | Department of Mathematics | Simon Fraser University
 
