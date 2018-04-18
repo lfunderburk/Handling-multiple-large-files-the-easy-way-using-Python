@@ -1,8 +1,7 @@
 # Handling-multiple-large-files-the-easy-way-using-Python
-This repository contains workshop material. 
-
 ## Workshop Instructor: 
 Laura Gutierrez Funderburk | Department of Mathematics | Simon Fraser University
+
 Date: April 24 2018
 
 ## Abstract
