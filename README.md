@@ -1,5 +1,5 @@
 # Handling multiple large files the easy way using Python
-## Workshop Instructor: 
+### Workshop Instructor: 
 Laura Gutierrez Funderburk | Department of Mathematics | Simon Fraser University
 
 Workshop date: April 24 2018
