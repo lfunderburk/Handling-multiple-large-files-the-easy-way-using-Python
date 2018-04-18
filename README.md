@@ -8,12 +8,18 @@ Workshop date: April 24 2018
 
 In this repository, I will walk through a series of exercises whose purpose is to make the process of handling multiuple files easier via the use of Python dictionaries, tables and comprehension lists. I will provide an example, files and a series of commands for participants to 
 
-## Installation
+## Prep
 
-## Online Documentation
+Ensure you have installed Python on your local computer. Throughout these exercises, I will be using Python 3.6. One of the easiest ways to install Python on your local computer is by downloading and installing [Anaconda](https://www.anaconda.com/download/#linux). 
 
-## 
+### Documentation
 
-## Exercise 1: 
+[Installing Anaconda](https://docs.anaconda.com/anaconda/install/#detailed-installation-information)
 
-## Exercise 2: 
+## Exercise 0: Setup
+
+## Exercise 1: Comprehension Lists
+
+## Exercise 2: Dictionaries
+
+## Exercise 3: 
