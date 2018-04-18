@@ -24,10 +24,14 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 [Installing Jupyter](http://jupyter.org/install)
 
-## Exercise 0: Setup
+## Exercises
 
-## Exercise 1: Comprehension Lists
+In this section I will provide a short description of each exercise. All exercises are inclucded in the repository. You can find a direct link to each in this list. 
 
-## Exercise 2: Dictionaries
+### Exercise 0: Setup
 
-## Exercise 3: 
+### Exercise 1: Comprehension Lists
+
+### Exercise 2: Dictionaries
+
+### Exercise 3: 
