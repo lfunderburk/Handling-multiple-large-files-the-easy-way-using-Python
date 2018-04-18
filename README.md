@@ -22,6 +22,8 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 [Installing Anaconda](https://docs.anaconda.com/anaconda/install/#detailed-installation-information)
 
+[Installing Jupyter](http://jupyter.org/install)
+
 ## Exercise 0: Setup
 
 ## Exercise 1: Comprehension Lists
