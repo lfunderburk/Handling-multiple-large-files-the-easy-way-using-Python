@@ -2,7 +2,7 @@
 ## Workshop Instructor: 
 Laura Gutierrez Funderburk | Department of Mathematics | Simon Fraser University
 
-Date: April 24 2018
+Workshop date: April 24 2018
 
 ## Abstract
 
