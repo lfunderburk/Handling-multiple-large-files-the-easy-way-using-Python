@@ -27,11 +27,11 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 In this section I will provide a short description of each exercise. All exercises are inclucded in the repository. You can find a direct link to each in this list. 
 
-### Exercise 0: Basic Tools for this Workshop
+### Exercise 0: Basic Tools for this Workshop](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_0_Basic_Tools_For_This_Workshop.ipynb)
 
-### Exercise 1: Comprehension Lists
+### Exercise 1: [Comprehension Lists](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb)
 
-### Exercise 2: Dictionaries
+### Exercise 2: [Dictionaries](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_2_Dictionaries.ipynb)
 
 ### Exercise 3: Dataframes
 
