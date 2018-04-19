@@ -27,10 +27,14 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 In this section I will provide a short description of each exercise. All exercises are inclucded in the repository. You can find a direct link to each in this list. 
 
-### Exercise 0: Setup
+### Exercise 0: Basic Tools for this Workshop
 
 ### Exercise 1: Comprehension Lists
 
 ### Exercise 2: Dictionaries
 
-### Exercise 3: 
+### Exercise 3: Dataframes
+
+### Exercise 4: From Jupyter Notebook to scripting
+
+### Exercise 5: Bringing it all together
