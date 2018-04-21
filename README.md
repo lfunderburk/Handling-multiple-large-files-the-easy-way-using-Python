@@ -9,7 +9,7 @@ In this repository, I will walk through a series of exercises whose purpose is t
 
 ## Prep
 
-### IMPORTANT: 
+### Important: 
 
 If you have an SFU login account, you can skip installing Python and simply access one of [SFU's Jupyter servers](https://sfu.syzygy.ca/)
 
