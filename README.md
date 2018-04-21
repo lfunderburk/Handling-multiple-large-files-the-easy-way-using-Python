@@ -25,7 +25,7 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 ## Introduction
 
-Imagie your job is to extract specifict information from a file A with over 600 entries. Such information acts as an identifier. Each identifier is then used to extract information from a file B containing thousands of entries. In file B, your job is now to use the identifiers from file A, to extract coordinates and key words from file B. What is the catch? File B has thousands of entries, and the job does not end here. We will use the information on file B to extract very specific subsets of information from at least a dozen of other files (some with hundreds if not thousands of lines). 
+Imagine your job is to extract specifict information from a file A with over 600 entries. Such information acts as an identifier. Each identifier is then used to extract information from a file B containing thousands of entries. In file B, your job is now to use the identifiers from file A, to extract coordinates and key words from file B. What is the catch? File B has thousands of entries, and the job does not end here. We will use the information on file B to extract very specific subsets of information from at least a dozen of other files (some with hundreds if not thousands of lines). 
 
 We plan to run open source software on this data and generate results. Once we get results, we then want to clean the output and plot our findings. 
 
