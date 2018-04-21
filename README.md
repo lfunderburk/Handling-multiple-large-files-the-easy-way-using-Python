@@ -29,7 +29,7 @@ Imagine your job is to extract specifict information from a file A with over 600
 
 We plan to run open source software on this data and generate results. Once we get results, we then want to clean the output and plot our findings. 
 
-In this workshop I will divide the tasks at hand and provide some of the tools I have found useful while parsing multiple files. 
+In this workshop I will divide the tasks at hand and provide some of the tools I have found useful while parsing large multiple files. 
 
 ## Exercises
 
