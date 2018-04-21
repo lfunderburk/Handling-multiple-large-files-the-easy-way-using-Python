@@ -23,6 +23,14 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 [Installing Jupyter](http://jupyter.org/install)
 
+## Introduction
+
+Imagie your job is to extract specifict information from a file A with over 600 entries. Such information acts as an identifier. Each identifier is then used to extract information from a file B containing thousands of entries. In file B, your job is now to use the identifiers from file A, to extract coordinates and key words from file B. What is the catch? File B has thousands of entries, and the job does not end here. We will use the information on file B to extract very specific subsets of information from at least a dozen of other files (some with hundreds if not thousands of lines). 
+
+We plan to run open source software on this data and generate results. Once we get results, we then want to clean the output and plot our findings. 
+
+In this workshop I will divide the tasks at hand and provide some of the tools I have found useful while parsing multiple files. 
+
 ## Exercises
 
 In this section I will provide a short description of each exercise. All exercises are inclucded in the repository. You can find a direct link to each in this list. 
