@@ -35,9 +35,9 @@ In this workshop I will divide the tasks at hand and provide some of the tools I
 
 In this section I will provide a short description of each exercise. All exercises are inclucded in the repository. You can find a direct link to each in this list. 
 
-### Exercise 0: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_0_Basic_Tools_For_This_Workshop.ipynb" target="_blank">Basic Tools for this Workshop</a>
+### Exercise 0: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_0_Basic_Tools_For_This_Workshop.ipynb" target="blank">Basic Tools for this Workshop</a>
 
-### Exercise 1: [Comprehension Lists](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb){target="_blank"}
+### Exercise 1: [Comprehension Lists](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb)
 
 ### Exercise 2: [Dictionaries](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_2_Dictionaries.ipynb)
 
