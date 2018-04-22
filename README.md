@@ -41,7 +41,7 @@ In this section I will provide a short description of each exercise. All exercis
 
 ### Exercise 3: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_3_Introduction_to_Dataframes.ipynb" target="_blank">Introduction to Dataframes</a>
 
-### Exercise 4: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_4_Recap.ipynb" target="_blank">Bringing it all together</ha>
+### Exercise 4: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_4_Recap.ipynb" target="_blank">Bringing it all together</a>
 
 ### Bonus: [From Jupyter Notebook to scripting]()
 
