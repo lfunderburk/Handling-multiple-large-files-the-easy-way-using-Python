@@ -31,9 +31,10 @@ In this workshop I will take a subset of a dataset I have been working on and sh
 
 ## Exercises
 
-In this section I will provide a short description of each exercise. All exercises are inclucded in the repository. You can find a direct link to each in this list. 
+In this section I will provide a short description of each exercise. 
 
 ### Exercise 0: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_0_Basic_Tools_For_This_Workshop.ipynb" target="_blank">Basic Tools for this Workshop</a>
+Refresh your memory of for loops, if statements, reading files and storing content into a data structure. 
 
 ### Exercise 1: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb" target="_blank">Comprehension Lists</a>
 
