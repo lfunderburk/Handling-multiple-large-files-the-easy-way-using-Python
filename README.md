@@ -7,7 +7,7 @@
 
 In this repository, I will walk through a series of exercises whose purpose is to make the process of handling multiuple files easier via the use of Python dictionaries, tables and comprehension lists. I will provide examples, files and a series of commands for participants to explore. Throughout this workhop and for pedagogical purposes, I will be using Jupyter notebooks. 
 
-## Prep
+## Getting Started
 
 ### Important: 
 
@@ -45,4 +45,11 @@ In this section I will provide a short description of each exercise. All exercis
 
 ### Bonus: [From Jupyter Notebook to scripting]()
 
+## The material in this workshop was built using
 
+* <a href="http://jupyter.org/" target="_blank">Jupyter Notebooks</a>
+* <a href="https://www.python.org/downloads/release/python-360/" target="_blank">Python 3.6</a>
+
+## Acknowledgements
+
+I thank Dr. Cedric Chauve for his encouragement and involvement in my development. This workshop was inspired on the basis of my learning experiences with him. I also thank him for letting me us a portion of data he kindly allowed me to use throughout these exercises. 
