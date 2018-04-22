@@ -1,7 +1,7 @@
 # Handling multiple large files the easy way using Python
-###### Workshop facilitator: Laura Gutierrez Funderburk | Department of Mathematics | Simon Fraser University
+##### Workshop facilitator: Laura Gutierrez Funderburk | Department of Mathematics | Simon Fraser University
 
-###### Workshop date: April 24 2018
+##### Workshop date: April 24 2018
 
 ## Abstract
 
