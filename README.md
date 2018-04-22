@@ -43,6 +43,8 @@ In this section I will provide a short description of each exercise. All exercis
 
 ### Exercise 3: [Dataframes]()
 
-### Exercise 4: [From Jupyter Notebook to scripting]()
+### Exercise 4: [Bringing it all together]()
 
-### Exercise 5: [Bringing it all together]()
+### Bonus: [From Jupyter Notebook to scripting]()
+
+
