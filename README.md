@@ -49,7 +49,7 @@ Short intro to dataframes, examples involving functions and plotting results.
 Rundown of tools used throughout this workshop.
 
 ### Bonus: [From Jupyter Notebook to scripting]()
-Challenge: Write a python script using the tools we learned throughout this workshop. 
+Challenge: Write a Python script using the tools we learned throughout this workshop. 
 
 ## The material in this workshop was built using
 
