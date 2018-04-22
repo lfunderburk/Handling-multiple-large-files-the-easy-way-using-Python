@@ -37,14 +37,19 @@ In this section I will provide a short description of each exercise.
 Refresh your memory of for loops, if statements, reading files and storing content into a data structure. 
 
 ### Exercise 1: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb" target="_blank">Comprehension Lists</a>
+Basic use of comprehension lists in small data structures and in file content.
 
 ### Exercise 2: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_2_Dictionaries.ipynb" target="_blank">Dictionaries</a>
+Examples of how to use dictionaries to manipulate files and file content.
 
 ### Exercise 3: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_3_Introduction_to_Dataframes.ipynb" target="_blank">Introduction to Dataframes</a>
+Short intro to dataframes, examples involving functions and plotting results.
 
 ### Exercise 4: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_4_Recap.ipynb" target="_blank">Bringing it all together</a>
+Rundown of tools used throughout this workshop.
 
 ### Bonus: [From Jupyter Notebook to scripting]()
+Challenge: Write a python script using the tools we learned throughout this workshop. 
 
 ## The material in this workshop was built using
 
