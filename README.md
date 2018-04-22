@@ -52,4 +52,4 @@ In this section I will provide a short description of each exercise. All exercis
 
 ## Acknowledgements
 
-I thank Dr. Cedric Chauve for his encouragement and involvement in my development. This workshop was inspired on the basis of my learning experiences with him. I also thank him for letting me us a portion of data he kindly allowed me to use throughout these exercises. 
+I thank Dr. Cedric Chauve for his encouragement and involvement in my development. This workshop was inspired on the basis of my learning experiences with him. I also thank him for letting me us a portion of data he has been working on. 
