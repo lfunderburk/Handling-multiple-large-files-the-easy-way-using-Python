@@ -6,6 +6,8 @@
 """Importing Libraries"""
 import glob
 
+"""Directories"""
+ALL_GENE_FILE_DIRECTORY = "./DATA/ALL_GENE_file"
 
 """Function Definition Area"""
 
