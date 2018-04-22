@@ -25,9 +25,9 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 ## Introduction
 
-Imagine your job is to extract specific information from a file A with over 600 entries. Such information acts as an identifier. Your job is to use the identifiers from file A to extract coordinates and key words from file B. What is the catch? File B has thousands of entries and the coordinates and keywords in each entry act as another identifier. You will use the identifiers found on file B to extract specific subsets of data from at least a dozen of other files (some with hundreds or thousands of lines). Once you get the data, your job is to run open source software and generate results. Once you get results, you clean the output and plot our findings. 
+Imagine your job is to extract specific information from a file A with over 600 entries. Such information acts as an identifier. Your job is to use the identifiers from file A to extract coordinates and key words from file B. What is the catch? File B has thousands of entries and the coordinates and keywords in each entry act as another identifier. You will use the identifiers found on file B to extract specific subsets of data from at least a dozen of other files (some with hundreds or thousands of lines). Once you get the data, your job is to run open source software and generate results. Once you get results, you clean the output and plot your findings. 
 
-In this workshop I will take a subset of a dataset I have been working on and share how tabulating data, using comprehension lists, dictionaries and dataframes made my work a lot easier. I will only focus on the aspects that involved using these tools and will leave other details as they are outside the scope of this workshop. 
+In this workshop I will take a subset of a dataset I have been working on and share how tabulating data, using comprehension lists, dictionaries and dataframes made my work a lot easier. Although the scope of this project calls for more, I will only focus on the aspects that involved using these tools. 
 
 ## Exercises
 
