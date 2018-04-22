@@ -39,7 +39,7 @@ In this section I will provide a short description of each exercise. All exercis
 
 ### Exercise 1: [Comprehension Lists](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb)
 
-### Exercise 2: [Dictionaries]()
+### Exercise 2: [Dictionaries](https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_2_Dictionaries.ipynb)
 
 ### Exercise 3: [Dataframes]()
 
