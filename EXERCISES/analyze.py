@@ -119,15 +119,15 @@ def data_to_dataframe(file_array):
     file_index = select_index(file_array)
     
     # Turn data in F1 into dataframe, attach column names
-    F1_df = pd.DataFrame([extract_family_length_scores(file_array[i],1) for i in file_index],\
-                      columns = ["Family", "Number_Seq", "Q_Score", "TC_Score","Cline_Score"])
+    A_df = pd.DataFrame([extract_family_length_scores(file_array[i],1) for i in file_index],\
+                      columns = ["Cluster", "Size", "Score_A", "Score_B","Score_C"])
     
     # Turn data in F2 into dataframe, attach column names
-    F2_df = pd.DataFrame([extract_family_length_scores(file_array[i],2) for i in file_index],\
-                      columns = ["Family", "Number_Seq", "Q_Score", "TC_Score","Cline_Score"])
+    B_df = pd.DataFrame([extract_family_length_scores(file_array[i],2) for i in file_index],\
+                      columns = ["Cluster", "Size", "Score_A", "Score_B","Score_C"])
     
     # Return both datafrains as a 2-tuple
-    return (F1_df,F2_df)
+    return (A_df,B_df)
 
 
 # This function takes as input a dataframe with either info from both F1 and F2 and "cleans" it
@@ -143,13 +143,13 @@ def clean_data_frame(data_frame_pair):
         # dataframe on variable clean_Fi_df
         clean_Fi_df = data_frame_pair[i]
         # remove '/n' from columns Cline_Score and Family
-        clean_Fi_df['Cline_Score'] = clean_Fi_df['Cline_Score'].map(lambda x: x.rstrip('\n'))
-        clean_Fi_df['Family'] = clean_Fi_df['Family'].map(lambda x: x.rstrip('\n'))
+        clean_Fi_df['Score_C'] = clean_Fi_df['Score_C'].map(lambda x: x.rstrip('\n'))
+        clean_Fi_df['Cluster'] = clean_Fi_df['Cluster'].map(lambda x: x.rstrip('\n'))
         # Turn Cline, Q and TC scores into float (originally they are coded as strings)
-        clean_Fi_df['Cline_Score'] = clean_Fi_df['Cline_Score'].apply(lambda x:float(x))
-        clean_Fi_df['Q_Score'] = clean_Fi_df['Q_Score'].apply(lambda x:float(x))
-        clean_Fi_df['TC_Score'] = clean_Fi_df['TC_Score'].apply(lambda x:float(x))
-        clean_Fi_df['Number_Seq'] = clean_Fi_df['Number_Seq'].apply(lambda x:int(x))
+        clean_Fi_df['Score_C'] = clean_Fi_df['Score_C'].apply(lambda x:float(x))
+        clean_Fi_df['Score_A'] = clean_Fi_df['Score_A'].apply(lambda x:float(x))
+        clean_Fi_df['Score_B'] = clean_Fi_df['Score_B'].apply(lambda x:float(x))
+        clean_Fi_df['Size'] = clean_Fi_df['Size'].apply(lambda x:int(x))
         # store clean_Fi_df into array
         clean_family_dataframes.append(clean_Fi_df)
         
@@ -172,18 +172,18 @@ def scatter_plot_scores_F1_vs_F2(clean_Data):
     ax2.scatter(F1_Data_Frame.Cline_Score, F2_Data_Frame.Cline_Score,s=30,c='Red')
     ax3.scatter(F1_Data_Frame.TC_Score, F2_Data_Frame.TC_Score,s=30,c='Green')
     
-    ax1.set_xlabel('QSCORE F1 vs F1P')
-    ax1.set_ylabel('QSCORE F2 vs F2P')
+    ax1.set_xlabel("Score_A Cluster A vs Cluster A'")
+    ax1.set_ylabel("Score_A Cluster B vs Cluster B'")
     #plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
     #ax1.title('Scores F1 vs F2')
     
-    ax2.set_xlabel('Cline Score F1 vs F1P')
-    ax2.set_ylabel('Cline Score F2 vs F2P')
+    ax2.set_xlabel("Score_C Cluster A vs Cluster A'")
+    ax2.set_ylabel("Score_C Cluster B vs Cluster B'")
     #plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-    ax2.set_title('Scores F1 vs F2')
+    ax2.set_title('Scores Cluster A vs Cluster B')
     
-    ax3.set_xlabel('TC Score F1 vs F1P')
-    ax3.set_ylabel('TC Score F2 vs F2P')
+    ax3.set_xlabel("Score_B Cluster A vs Cluster A'")
+    ax3.set_ylabel("Score_B Cluster B vs Cluster B'")
     
     plt.show()
 
@@ -195,18 +195,18 @@ def plot_frequency(Fi_Data_Frame,family):
     ax1 = fig.add_subplot(1, 3, 1)
     ax2 = fig.add_subplot(1, 3, 2)
     ax3 = fig.add_subplot(1,3,3)
-    ax1.hist(Fi_Data_Frame['Q_Score'],color='Blue') #label='Q Score F1'
-    ax3.hist(Fi_Data_Frame['Cline_Score'],color='Red') #label='Cline Score F1')
-    ax2.hist(Fi_Data_Frame['TC_Score'],color='Green')  #label='TC Score F1')
-    ax1.set_xlabel('Q Score')
+    ax1.hist(Fi_Data_Frame['Score_A'],color='Blue') #label='Q Score F1'
+    ax3.hist(Fi_Data_Frame['Score_C'],color='Green') #label='Cline Score F1')
+    ax2.hist(Fi_Data_Frame['Score_B'],color='Red')  #label='TC Score F1')
+    ax1.set_xlabel('Score_A')
     ax1.set_ylabel('Frequency')
     #ax1.legend()
-    ax2.set_xlabel('Cline Score')
-    ax2.set_ylabel('Frequency')
-    ax2.set_title('Frequency Diagram ' + str(family))
-    #ax2.legend()
-    ax3.set_xlabel('TC Score')
+    ax3.set_xlabel('Score_C')
     ax3.set_ylabel('Frequency')
+    ax2.set_title('Distribution for Cluster ' + str(family))
+    #ax2.legend()
+    ax2.set_xlabel('Score_B')
+    ax2.set_ylabel('Frequency')
     #ax3.legend()
     plt.show()
     
@@ -218,14 +218,14 @@ def plot_number_seq_vs_scores(Fi_Data_Frame,family):
     ax1 = fig.add_subplot(1, 3, 1)
     ax2 = fig.add_subplot(1, 3, 2)
     ax3 = fig.add_subplot(1,3,3)
-    ax1.scatter(Fi_Data_Frame.Q_Score, Fi_Data_Frame.Number_Seq,s=30,c='Blue')
-    ax2.scatter(Fi_Data_Frame.Cline_Score, Fi_Data_Frame.Number_Seq,s=30,c='Red')
-    ax3.scatter(Fi_Data_Frame.TC_Score, Fi_Data_Frame.Number_Seq,s=30,c='Green')
-    ax1.set_xlabel('Q Score')
-    ax1.set_ylabel('Number of Sequences')
-    ax2.set_xlabel('Cline Score')
-    ax2.set_ylabel('Number of Sequences')
-    ax2.set_title('Scores vs Number of Sequences for  ' + str(family))
-    ax3.set_xlabel('TC Score')
-    ax3.set_ylabel('Number of Sequences')
+    ax1.scatter(Fi_Data_Frame.Score_A, Fi_Data_Frame.Size,s=30,c='Blue')
+    ax3.scatter(Fi_Data_Frame.Score_C, Fi_Data_Frame.Size,s=30,c='Green')
+    ax2.scatter(Fi_Data_Frame.Score_B, Fi_Data_Frame.Size,s=30,c='Red')
+    ax1.set_xlabel('Score_A')
+    ax1.set_ylabel('Size')
+    ax3.set_xlabel('Score_C')
+    ax3.set_ylabel('Size')
+    ax2.set_title('Scores vs Size  ' + str(family))
+    ax2.set_xlabel('Score_B')
+    ax2.set_ylabel('Size')
     plt.show()
