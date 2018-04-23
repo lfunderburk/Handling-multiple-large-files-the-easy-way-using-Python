@@ -48,7 +48,7 @@ Short intro to dataframes, examples involving functions and plotting results.
 ### Exercise 4: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_4_Recap.ipynb" target="_blank">Bringing it all together</a>
 Rundown of tools used throughout this workshop.
 
-### <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Bonus_From_Jupyter_to_Python_scripting.ipynb" target="_blank">Bonus: From Jupyter Notebook to scripting</a>
+### Bonus: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Bonus_From_Jupyter_to_Python_scripting.ipynb" target="_blank">From Jupyter Notebook to scripting</a>
 
 Challenge: Write a Python script using the tools we learned throughout this workshop. 
 
