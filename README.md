@@ -59,4 +59,4 @@ Challenge: Write a Python script using the tools we learned throughout this work
 
 ## Acknowledgements
 
-I thank Dr. Cedric Chauve for his encouragement and involvement in my development. This workshop was inspired on the basis of my learning experiences with him. I also thank him for letting me use a portion of data he has been working on. 
+I thank Dr. Cedric Chauve for his encouragement and involvement in my development. This workshop was inspired on the basis of my learning experiences with him. I also thank him for letting me use a portion of data we have been working on. 
