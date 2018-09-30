@@ -5,7 +5,7 @@
 
 ## Abstract
 
-In this repository, I will walk through a series of exercises whose purpose is to make the process of handling multiuple files easier via the use of Python dictionaries, tables and comprehension lists. I will provide examples, files and a series of commands for participants to explore. Throughout this workhop and for pedagogical purposes, I will be using Jupyter notebooks. 
+In this repository, I will walk through a series of exercises whose purpose is to make the process of handling multiuple files easier via the use of Python dictionaries, tables and list comprehension. I will provide examples, files and a series of commands for participants to explore. Throughout this workhop and for pedagogical purposes, I will be using Jupyter notebooks. 
 
 ## Getting Started
 
@@ -36,8 +36,8 @@ In this section I will provide a short description of each exercise.
 ### Exercise 0: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_0_Basic_Tools_For_This_Workshop.ipynb" target="_blank">Basic Tools for this Workshop</a>
 Refresh your memory of for loops, if statements, reading files and storing content into a data structure. 
 
-### Exercise 1: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb" target="_blank">Comprehension Lists</a>
-Basic use of comprehension lists in small data structures and in file content.
+### Exercise 1: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_1_Comprehension_Lists.ipynb" target="_blank">List Comprehension</a>
+Basic use of list comprehension in small data structures and in file content.
 
 ### Exercise 2: <a href="https://github.com/lfunderburk/Handling-multiple-large-files-the-easy-way-using-Python/blob/master/EXERCISES/Exercise_2_Dictionaries.ipynb" target="_blank">Dictionaries</a>
 Examples of how to use dictionaries to manipulate files and file content.
