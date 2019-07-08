@@ -5,7 +5,7 @@
 
 ## Abstract
 
-In this repository, I will walk through a series of exercises whose purpose is to make the process of handling multiuple files easier via the use of Python dictionaries, tables and list comprehension. I will provide examples, files and a series of commands for participants to explore. Throughout this workhop and for pedagogical purposes, I will be using Jupyter notebooks. 
+In this repository, I will walk through a series of exercises whose purpose is to make the process of handling multiuple files easier via the use of Python dictionaries, tables and list comprehensions. I will provide examples, files and a series of commands for participants to explore. Throughout this workhop and for pedagogical purposes, I will be using Jupyter notebooks. 
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ Ensure you have installed Python on your local computer. Throughout these exerci
 
 Imagine your job is to extract specific information from a file A with over 600 entries. Such information acts as an identifier. Your job is to use the identifiers from file A to extract coordinates and key words from file B. What is the catch? File B has thousands of entries and the coordinates and keywords in each entry act as another identifier. You will use the identifiers found on file B to extract specific subsets of data from at least a dozen of other files (some with hundreds or thousands of lines). Once you get the data, your job is to run open source software and generate results. Once you get results, you clean the output and plot your findings. 
 
-In this workshop I will take a subset of a dataset I have been working on and share how tabulating data, using comprehension lists, dictionaries and dataframes simplified the tasks mentioned above. Although the scope of this project calls for more, I will only focus on the aspects that involved using these tools. 
+In this workshop I will take a subset of a dataset I have been working on and share how tabulating data, using list comprehension, dictionaries and dataframes simplified the tasks mentioned above. Although the scope of this project calls for more, I will only focus on the aspects that involved using these tools. 
 
 ## Exercises
 
